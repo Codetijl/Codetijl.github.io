@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>verkeerslicht</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body onload="green()">
+    <button type="button" class="btn btn1" onclick="green()">Groen</button>
+    <button type="button" class="btn btn2" onclick="orange()">Oranje</button>
+    <button type="button" class="btn btn3" onclick="red()">Rood</button>
+    <button type="button" class="btn btn4" onclick="orange2()" style="display: block">Knipper onranje</button>
+    <div id="head" class="head">
+      <div id="l1" class="light1"></div>
+      <div id="l2" class="light2"></div>
+      <div id="l3" class="light3"></div>
+    </div>
+    <div id="paal" class="paal"></div>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
